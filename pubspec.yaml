@@ -1,7 +1,7 @@
 name: braintree_payment
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: "https://github.com/yairsts/braintree_payment"
 
 environment:
   sdk: ^3.6.2
