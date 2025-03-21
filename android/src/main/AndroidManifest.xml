@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.braintree_payment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <queries>
+        <package android:name="com.venmo" />
+    </queries>
+    <application>
+        <activity
+            android:name=".VenmoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTop"
+            />
+    </application>
+</manifest>
